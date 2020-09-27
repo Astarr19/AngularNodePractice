@@ -1,0 +1,9 @@
+<base href="/">
+<ul id="container">
+    <li class="records" [ngClass]="{'favorite':(record.favorite == 1)}" *ngFor="let record of records; index as i">
+      <h1>{{record.artist}}</h1>
+      <h1>{{record.album}}</h1>
+      <img src="{{record.art}}">
+      <h1>{{record.release_year}}</h1>
+    </li>
+  </ul>

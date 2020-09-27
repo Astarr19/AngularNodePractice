@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) {
+
+}
+
+* {
+    background-color: #A09BE7;
+    font-size: 24px;
+}
+
+h1 {
+    background-color: #5F00BA;
+    color: #FFF2F1
+}
+
+.records {
+    list-style: none;
+    background-color: #5F00BA;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.favorite {
+    border: 1px solid gold;
+}
